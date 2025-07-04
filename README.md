@@ -3,6 +3,7 @@
 
 **A lightweight, annotation-driven Java validation library with zero dependencies.**  
 Easily validate your POJOs using simple annotations like `@NotNull`, `@Min`, `@Max`, `@Pattern`, `@Email`, and `@Length`.
+More annotations will be added.
 
 ---
 
