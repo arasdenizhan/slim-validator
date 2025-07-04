@@ -13,7 +13,7 @@ public class MaxStrategy implements ValidationStrategy {
     public void validate(Field field, Object value, List<ValidationError> errors) {
         if (field.isAnnotationPresent(Max.class)){
             String message = field.getAnnotation(Max.class).message();
-            if ((int) value >= field.getAnnotation(Max.class).value()){
+            if ((int) value > field.getAnnotation(Max.class).value()){
                 errors.add(new ValidationError(field.getName(), message));
             }
         }

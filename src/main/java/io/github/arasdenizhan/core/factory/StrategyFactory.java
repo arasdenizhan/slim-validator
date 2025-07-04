@@ -7,6 +7,8 @@ import io.github.arasdenizhan.annotations.constants.AnnotationName;
 import java.util.EnumMap;
 import java.util.Map;
 
+import static io.github.arasdenizhan.annotations.constants.AnnotationName.*;
+
 public final class StrategyFactory {
     private static final Map<AnnotationName, ValidationStrategy> STRATEGIES = new EnumMap<>(
             Map.of(

@@ -13,7 +13,7 @@ public class MinStrategy implements ValidationStrategy {
     public void validate(Field field, Object value, List<ValidationError> errors) {
         if (field.isAnnotationPresent(Min.class)){
             String message = field.getAnnotation(Min.class).message();
-            if ((int) value <= field.getAnnotation(Min.class).value()){
+            if ((int) value < field.getAnnotation(Min.class).value()){
                 errors.add(new ValidationError(field.getName(), message));
             }
         }
