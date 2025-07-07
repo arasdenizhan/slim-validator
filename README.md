@@ -3,8 +3,13 @@
 
 **A lightweight, annotation-driven Java validation library with zero dependencies.**  
 Easily validate your POJOs using simple annotations like `@NotNull`, `@Min`, `@Max`, `@Pattern`, `@Email`, and `@Length`.
-More annotations will be added.
 
+More features will be integrated soon.
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/arasdenizhan/slim-validator/blob/master/LICENSE)
+![Release](https://img.shields.io/github/v/release/arasdenizhan/slim-validator)
+[![Maven Central](https://img.shields.io/badge/Maven_Central-1.0.0-green)](https://central.sonatype.com/artifact/io.github.arasdenizhan/slim-validator)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) 
 ---
 
 ## 🚀 Features
