@@ -59,7 +59,7 @@ validator.validate(userDto); // throws ValidationException on failure
 ---
 
 ## 📦 Maven Central Dependency
-- Coming soon.
+
 ```xml
 <dependency>
   <groupId>io.github.arasdenizhan</groupId>
@@ -67,13 +67,6 @@ validator.validate(userDto); // throws ValidationException on failure
   <version>1.0.0</version>
 </dependency>
 ```
-
----
-
-## ⚙️ Build & Installation
-
-- Build as a Maven project  
-- Optionally, automate releases with GitHub Actions
 
 ---
 
