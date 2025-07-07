@@ -2,6 +2,16 @@ package io.github.arasdenizhan.core.handler;
 
 import java.lang.reflect.Field;
 
+/**
+ * Utility class to efficiently retrieve the value of a field via reflection.
+ * <p>
+ * Instead of blindly calling {@code setAccessible(true)} on each access,
+ * this class first checks if the field is already accessible using {@code canAccess()}.
+ * If not accessible, it enables access explicitly. This avoids unnecessary reflection overhead.
+ * <p>
+ * Note: In some JVM implementations, repeated {@code setAccessible(true)} calls are cached,
+ * which can improve performance slightly, though this behavior is not guaranteed in all Java versions.
+ */
 public final class AccessibleFieldHandler {
     private AccessibleFieldHandler() {}
 

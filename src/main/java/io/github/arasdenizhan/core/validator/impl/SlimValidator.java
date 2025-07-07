@@ -14,7 +14,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+/**
+ * Main validator class to check given object field's for slim-validator annotations.
+ *  * <pre>
+ *  * {@code
+ *  * SlimValidator validator = new SlimValidator();
+ *  * UserDto userDto = new UserDto();
+ *  * validator.validate(userDto); // throws ValidationException on failure
+ *  * }
+ *  * </pre>
+ */
 public final class SlimValidator implements Validator {
     private static final Logger LOGGER = Logger.getLogger(SlimValidator.class.getName());
     private static final StrategyFactory FACTORY = new StrategyFactory();
