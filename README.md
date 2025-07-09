@@ -91,6 +91,14 @@ implementation group: 'io.github.arasdenizhan', name: 'slim-validator', version:
 
 ---
 
+## 📚 Documentation
+
+The full API documentation is available at:
+
+👉 [Javadoc for Slim Validator](https://arasdenizhan.github.io/slim-validator/)
+
+---
+
 ## 📄 License
 
 Apache License 2.0 (Open source and free to use)
