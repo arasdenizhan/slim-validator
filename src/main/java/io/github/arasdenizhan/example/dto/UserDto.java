@@ -24,6 +24,9 @@ public class UserDto {
     @Length(min = 8, max = 16, message = "Password must be between 8 and 16 characters!")
     private String password;
 
+    @NotBlank(message = "another string exception message")
+    private String anotherString;
+
     public void setAge(int age) {
         this.age = age;
     }

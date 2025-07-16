@@ -1,11 +1,11 @@
 package io.github.arasdenizhan.core.factory;
 
 import io.github.arasdenizhan.core.strategy.ValidationStrategy;
-import io.github.arasdenizhan.core.strategy.impl.*;
 import io.github.arasdenizhan.annotations.constants.AnnotationName;
 
-import java.util.EnumMap;
+import java.util.Arrays;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static io.github.arasdenizhan.annotations.constants.AnnotationName.*;
 
@@ -16,16 +16,8 @@ import static io.github.arasdenizhan.annotations.constants.AnnotationName.*;
  * Used internally by the validator to resolve strategy objects for specific annotations.
  */
 public final class StrategyFactory {
-    private static final Map<AnnotationName, ValidationStrategy> STRATEGIES = new EnumMap<>(
-            Map.of(
-                    MAX, new MaxStrategy(),
-                    MIN, new MinStrategy(),
-                    NOT_NULL, new NotNullStrategy(),
-                    LENGTH, new LengthStrategy(),
-                    EMAIL, new EmailStrategy(),
-                    PATTERN, new PatternStrategy()
-            )
-    );
+    private static final Map<AnnotationName, ValidationStrategy> STRATEGIES =
+            Arrays.stream(values()).collect(Collectors.toMap(annotationName -> annotationName, AnnotationName::getStrategy));
 
     /**
      * Returns the {@link ValidationStrategy} associated with the given annotation name.

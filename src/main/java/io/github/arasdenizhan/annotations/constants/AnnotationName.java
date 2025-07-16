@@ -1,21 +1,31 @@
 package io.github.arasdenizhan.annotations.constants;
 
+import io.github.arasdenizhan.core.strategy.ValidationStrategy;
+import io.github.arasdenizhan.core.strategy.impl.*;
+
 public enum AnnotationName {
-    EMAIL("Email"),
-    LENGTH("Length"),
-    MAX("Max"),
-    MIN("Min"),
-    NOT_NULL("NotNull"),
-    PATTERN("Pattern");
+    EMAIL("Email", new EmailStrategy()),
+    LENGTH("Length", new LengthStrategy()),
+    MAX("Max", new MaxStrategy()),
+    MIN("Min", new MinStrategy()),
+    NOT_NULL("NotNull", new NotNullStrategy()),
+    PATTERN("Pattern", new PatternStrategy()),
+    NOT_BLANK("NotBlank", new NotBlankStrategy());
 
     private final String value;
+    private final ValidationStrategy strategy;
 
-    AnnotationName(String value) {
+    AnnotationName(String value, ValidationStrategy strategy) {
         this.value = value;
+        this.strategy = strategy;
     }
 
     public String getValue() {
         return value;
+    }
+
+    public ValidationStrategy getStrategy() {
+        return strategy;
     }
 
     public static AnnotationName fromString(String value) {
