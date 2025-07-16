@@ -22,7 +22,8 @@ More features will be integrated soon.
   - `@Min` / `@Max` — numeric boundaries  
   - `@Pattern` — regex pattern validation  
   - `@Email` — email format validation  
-  - `@Length` — string length constraints  
+  - `@Length` — string length constraints
+  - `@NotBlank` — string null and empty check  
 - **Performance optimized** — reflection access is cached  
 - **Easy integration** — just annotate your POJOs and call the validator  
 - **Open source** — community-driven and extendable
