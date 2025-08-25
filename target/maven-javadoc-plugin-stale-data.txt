@@ -1,0 +1,85 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'9'
+-sourcepath
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java;C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'slim-validator 1.2.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/9/docs/api' 'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'slim-validator 1.2.0 API'
+io.github.arasdenizhan.annotations.constants
+io.github.arasdenizhan.annotations
+io.github.arasdenizhan.core.exception
+io.github.arasdenizhan.core.factory
+io.github.arasdenizhan.core.handler
+io.github.arasdenizhan.core.strategy
+io.github.arasdenizhan.core.strategy.impl
+io.github.arasdenizhan.core.validator.impl
+io.github.arasdenizhan.core.validator
+io.github.arasdenizhan.example
+io.github.arasdenizhan.example.dto
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/constants/AnnotationName.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Email.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Future.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Length.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Max.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Min.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/NotBlank.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/NotNull.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Past.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/annotations/Pattern.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/exception/ValidationError.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/exception/ValidationException.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/factory/StrategyFactory.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/handler/AccessibleFieldHandler.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/handler/FieldCacheHandler.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/AbstractValidationStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/EmailStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/FutureStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/LengthStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/MaxStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/MinStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/NotBlankStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/NotNullStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/PastStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/impl/PatternStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/strategy/ValidationStrategy.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/validator/impl/SlimValidator.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/core/validator/Validator.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/example/BasicExample.java'
+'C:/Users/arasd/OneDrive/Desktop/Projects/slim-validator/src/main/java/io/github/arasdenizhan/example/dto/UserDto.java'
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\src\main\java = 1752672650434
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\generated-sources\annotations = 1756151948526
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\allclasses-index.html = 1756151954539
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\allpackages-index.html = 1756151954543
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\element-list = 1756151954368
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\help-doc.html = 1756151954568
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\index-all.html = 1756151954560
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\index.html = 1756151954530
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\member-search-index.js = 1756151954546
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\module-search-index.js = 1756151954544
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\overview-summary.html = 1756151954563
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\overview-tree.html = 1756151954527
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\package-search-index.js = 1756151954544
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\search.html = 1756151954562
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\serialized-form.html = 1756151954438
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\tag-search-index.js = 1756151954546
+C:\Users\arasd\OneDrive\Desktop\Projects\slim-validator\target\apidocs\type-search-index.js = 1756151954544

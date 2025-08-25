@@ -1,0 +1,11 @@
+io.github.arasdenizhan.annotations
+io.github.arasdenizhan.annotations.constants
+io.github.arasdenizhan.core.exception
+io.github.arasdenizhan.core.factory
+io.github.arasdenizhan.core.handler
+io.github.arasdenizhan.core.strategy
+io.github.arasdenizhan.core.strategy.impl
+io.github.arasdenizhan.core.validator
+io.github.arasdenizhan.core.validator.impl
+io.github.arasdenizhan.example
+io.github.arasdenizhan.example.dto
