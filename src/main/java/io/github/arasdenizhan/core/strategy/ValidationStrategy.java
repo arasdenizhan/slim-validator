@@ -6,7 +6,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 /**
- * Core strategy class to for creating a validation strategy.
+ * Core strategy interface to for creating a validation strategy.
  */
 public interface ValidationStrategy {
     void validate(Field field, Object value, List<ValidationError> errors);

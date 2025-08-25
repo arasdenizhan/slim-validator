@@ -1,6 +1,7 @@
 package io.github.arasdenizhan.example.dto;
 
 import io.github.arasdenizhan.annotations.*;
+import java.time.LocalDate;
 
 public class UserDto {
     @NotNull(message = "Name is required!")
@@ -27,6 +28,12 @@ public class UserDto {
     @NotBlank(message = "another string exception message")
     private String anotherString;
 
+    @Past("1980-08-21")
+    private LocalDate pastDate;
+
+    @Future("2045-08-20")
+    private LocalDate futureDate;
+
     public void setAge(int age) {
         this.age = age;
     }
@@ -37,5 +44,13 @@ public class UserDto {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public void setPastDate(LocalDate pastDate) {
+        this.pastDate = pastDate;
+    }
+
+    public void setFutureDate(LocalDate futureDate) {
+        this.futureDate = futureDate;
     }
 }

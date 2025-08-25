@@ -10,7 +10,9 @@ public enum AnnotationName {
     MIN("Min", new MinStrategy()),
     NOT_NULL("NotNull", new NotNullStrategy()),
     PATTERN("Pattern", new PatternStrategy()),
-    NOT_BLANK("NotBlank", new NotBlankStrategy());
+    NOT_BLANK("NotBlank", new NotBlankStrategy()),
+    FUTURE("Future", new FutureStrategy()),
+    PAST("Past", new PastStrategy());
 
     private final String value;
     private final ValidationStrategy strategy;

@@ -139,6 +139,15 @@ public class SlimValidatorTests {
         Assertions.assertEquals("anotherString: Another string is null.. Wow!", exception.getMessage());
     }
 
+    @Test
+    public void testValidate_Fails_WhenStringFieldContainsOnlySpace() {
+        UserDto user = getUser("Denizhan24", 18, 1, "email@test.com", "anotherEmail1@test.com", "password", " ");
+
+        ValidationException exception = Assertions.assertThrows(ValidationException.class, () -> validator.validate(user));
+
+        Assertions.assertEquals("anotherString: Another string is null.. Wow!", exception.getMessage());
+    }
+
     private static UserDto getUser(String name, Integer age, Integer countryCode, String email, String anotherEmail, String password, String anotherString) {
         return new UserDto(name, age, countryCode, email, anotherEmail, password, anotherString);
     }
