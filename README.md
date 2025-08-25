@@ -3,8 +3,8 @@
 
 ![Build](https://github.com/arasdenizhan/slim-validator/actions/workflows/maven.yml/badge.svg)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/arasdenizhan/slim-validator/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/v/release/arasdenizhan/slim-validator)](https://github.com/arasdenizhan/slim-validator/releases/tag/1.1.0)
-[![Maven Central](https://img.shields.io/badge/Maven_Central-1.1.0-green)](https://central.sonatype.com/artifact/io.github.arasdenizhan/slim-validator)
+[![Release](https://img.shields.io/github/v/release/arasdenizhan/slim-validator)](https://github.com/arasdenizhan/slim-validator/releases/tag/1.2.0)
+[![Maven Central](https://img.shields.io/badge/Maven_Central-1.2.0-green)](https://central.sonatype.com/artifact/io.github.arasdenizhan/slim-validator)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 **A lightweight, annotation-driven Java validation library with zero dependencies.**  
@@ -23,7 +23,8 @@ More features will be integrated soon.
   - `@Pattern` — regex pattern validation  
   - `@Email` — email format validation  
   - `@Length` — string length constraints
-  - `@NotBlank` — string null and empty check  
+  - `@NotBlank` — string null, empty and only whitespace check
+  - `@Past` and `@Future` — date check
 - **Performance optimized** — reflection access is cached  
 - **Easy integration** — just annotate your POJOs and call the validator  
 - **Open source** — community-driven and extendable
@@ -68,18 +69,18 @@ validator.validate(userDto); // throws ValidationException on failure
 
 ## 📦 Central Repository
 
-- Maven
+- Maven (Latest Version)
 ```xml
 <dependency>
   <groupId>io.github.arasdenizhan</groupId>
   <artifactId>slim-validator</artifactId>
-  <version>1.0.0</version>
+  <version>1.2.0</version>
 </dependency>
 ```
 
-- Gradle
+- Gradle (Latest Version)
 ```
-implementation group: 'io.github.arasdenizhan', name: 'slim-validator', version: '1.0.0'
+implementation group: 'io.github.arasdenizhan', name: 'slim-validator', version: '1.2.0'
 ```
 
 ---
