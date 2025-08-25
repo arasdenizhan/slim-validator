@@ -5,13 +5,14 @@ import io.github.arasdenizhan.core.exception.ValidationError;
 import io.github.arasdenizhan.core.strategy.AbstractValidationStrategy;
 
 import java.lang.reflect.Field;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
 public class MinStrategy extends AbstractValidationStrategy {
 
     public MinStrategy() {
-        super(Set.of(int.class.getTypeName(), Integer.class.getTypeName()));
+        super(new LinkedHashSet<>(Set.of(int.class.getTypeName(), Integer.class.getTypeName())));
     }
 
     @Override
