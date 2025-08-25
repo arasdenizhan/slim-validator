@@ -101,6 +101,12 @@ The full API documentation is available at:
 
 ---
 
+## 📚 Benchmark Chart
+
+![chart](simulated-validator-benchmark-colored.png)
+
+---
+
 ## 📄 License
 
 Apache License 2.0 (Open source and free to use)
